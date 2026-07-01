@@ -1,0 +1,1 @@
+<?php echo "Chemin du fichier : " . __FILE__; ?>

@@ -1,0 +1,64 @@
+/* --- 1. Amélioration globale des cartes et tableaux --- */
+.card, .table-hover {
+    border-radius: 12px !important;
+    border: none !important;
+    box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05) !important;
+    background-color: #ffffff;
+}
+
+/* --- 2. Boutons "punchy" avec animation --- */
+.btn {
+    border-radius: 8px !important;
+    font-weight: 600;
+    transition: all 0.3s ease !important;
+}
+
+.btn:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 6px 12px rgba(0,0,0,0.15) !important;
+}
+
+/* --- 3. Typographie propre et moderne --- */
+body {
+    font-family: 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: #f8f9fa;
+}
+
+/* --- 4. Alertes élégantes --- */
+.alert {
+    border: none !important;
+    border-left: 5px solid !important;
+    border-radius: 8px !important;
+}
+
+/* --- 5. Correction des débordements (pour tes cartes de ressources) --- */
+.card-text {
+    white-space: normal !important;
+    word-wrap: break-word !important;
+    overflow: visible !important;
+}
+
+.card-title {
+    white-space: normal !important;
+    word-wrap: break-word !important;
+}
+
+/* --- 6. Amélioration des tableaux --- */
+.table {
+    border-collapse: separate;
+    border-spacing: 0 10px; /* Espace entre les lignes pour un look moderne */
+}
+
+.table thead th {
+    border-bottom: none !important;
+    text-transform: uppercase;
+    font-size: 0.85rem;
+    letter-spacing: 0.05em;
+}
+
+.table tbody tr {
+    background-color: #ffffff;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+}
